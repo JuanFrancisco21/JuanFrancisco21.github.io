@@ -2,7 +2,7 @@
   <img src="https://github.com/JuanFrancisco21/JuanFrancisco21/blob/main/cover.png" height="200"/>
 </p>
 <hr>
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Juan Francisco</h1>
+<h1 align="center">Hola <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, Soy Juan Francisco</h1>
 
 ### 🔧 Tecnologias y Aptitudes 🔧
 
