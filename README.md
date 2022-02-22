@@ -27,8 +27,12 @@
 ### 📊 Estadísticas de GitHub 📊
 
 
-| [![ErTonix12's GitHub stats](https://github-readme-stats.vercel.app/api?username=JuanFrancisco21&show_icons=true&theme=onedark&text_color=fff&border_color=79ff97&hide_title=true)](https://github.com/JuanFrancisco21) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JuanFrancisco21&theme=onedark&text_color=fff&border_color=79ff97&layout=compact)](https://github.com/JuanFrancisco21) |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<p align="center">
+<a href="https://github.com/AVS1508">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JuanFrancisco21&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JuanFrancisco21&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
 
 ---
 
