@@ -1,0 +1,71 @@
+@use "palette";
+
+////
+/// @group Footer
+/// This is the footer file scss for Nazarenos Web.
+/// It will contain all class with relation with the section of each html file.
+/// @author Juan Fco Aguilar
+////
+
+/// Footer container
+/// @group Section
+footer {
+    background-color: $primary-grey;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-top: auto;
+
+    li {
+        list-style: none;
+        margin: 10px;
+        display: inline-block;
+    }
+}
+
+/// Footer icons
+/// @group Section
+.icons {
+    margin: 0;
+    li a {
+        background: $primary;
+        color: $primary-grey;
+        padding: 14px;
+        font-size: 20px;
+        border-radius: 100%;
+        display: flex;
+
+        &:hover {
+            color: white;
+            transition: 0.5s;
+        }
+    }
+}
+
+/// Footer Menu
+/// @group Section
+.menu {
+    li a {
+        color: white;
+        text-transform: capitalize;
+
+        &:hover {
+            color: $primary;
+            transition: 0.5s;
+        }
+    }
+}
+
+/// Footer copyright section
+/// @group Section
+.footer-copyright {
+    background-color: $primary;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+
+    p {
+        margin-bottom: 0px;
+    }
+}

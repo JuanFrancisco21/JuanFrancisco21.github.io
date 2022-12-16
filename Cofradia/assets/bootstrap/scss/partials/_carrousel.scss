@@ -1,0 +1,20 @@
+////
+/// @group Carrousel
+/// This is the Carrousel file scss for Nazarenos Web.
+/// It will contain all class with relation with the section of each html file.
+/// @author Juan Fco Aguilar
+////
+
+/// Height for carrousel items
+/// @group Carrousel
+.c-item {
+  height: 480px;
+}
+
+/// Height for carrousel items
+/// @group Carrousel
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
