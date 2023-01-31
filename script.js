@@ -2,10 +2,19 @@ $('.option').click(function () {
   $('.option').removeClass('active');
   $(this).addClass('active');
 });
+
+/**
+ * Funtion to switch between dark and light mode
+ */
 function myFunction() {
   var element = document.body;
   element.classList.toggle('dark-mode');
 }
+
+/**
+ * Funtion to make the navigation.
+ * @param {*} elem is the id of the card, which is double clicked
+ */
 function navigate(elem) {
   switch (elem.id) {
     case 'portfolio':
@@ -33,5 +42,21 @@ function navigate(elem) {
       window.location.href =
         'http://www.linkedin.com/in/juan-fco-aguilar-sanchez/';
       break;
+  }
+}
+
+/**
+ * Funciont to switch between two background videos 
+ */
+function change_video() {
+  var element = document.getElementById("video_2");
+
+  if (element.classList.contains('hidden')) {
+    element.classList.add("visible");
+    element.classList.remove("hidden")
+  }else{
+    
+    element.classList.add("hidden");
+    element.classList.remove("visible")
   }
 }

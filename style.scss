@@ -5,11 +5,22 @@ $optionDefaultColours: #ed5565, #ffce54, #ac92ec, #3d3d3d, #5d9cec, #ac92ec;
    color: rgb(40, 40, 40);
 }
 
-#bgvideo {
+.bgvideo {
    position: fixed;
    min-height: 100%;
    min-width: 100%;
    z-index: -100;
+}
+
+.visible {
+   visibility: visible;
+   opacity: 1;
+   transition: opacity 2s linear;
+}
+.hidden {
+   visibility: hidden;
+   opacity: 0;
+   transition: visibility 0s 2s, opacity 2s linear;
 }
 
 body {
