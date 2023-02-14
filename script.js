@@ -1,19 +1,22 @@
-$('.option').click(function () {
+/**
+ * Remove or add the css class to show the card under the mouse
+ */
+$('.option').mouseover(function () {
   $('.option').removeClass('active');
   $(this).addClass('active');
 });
 
 /**
- * Funtion to switch between dark and light mode
+ * Funtion to change website theme, used at the same time to change the background video.
  */
-function myFunction() {
+function changetheme() {
   var element = document.body;
   element.classList.toggle('dark-mode');
 }
 
 /**
- * Funtion to make the navigation.
- * @param {*} elem is the id of the card, which is double clicked
+ * Switch for navigate to the clicked card
+ * @param {*} elem wich one of the cards selected you want to navigate
  */
 function navigate(elem) {
   switch (elem.id) {
@@ -45,10 +48,11 @@ function navigate(elem) {
   }
 }
 
+
 /**
  * Funciont to switch between two background videos 
  */
-function change_video() {
+function changevideo() {
   var element = document.getElementById("video_2");
 
   if (element.classList.contains('hidden')) {
