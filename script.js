@@ -38,12 +38,12 @@ function navigate(elem) {
       break;
     case 'linkedin':
       window.location.href =
-        'http://www.linkedin.com/in/juan-fco-aguilar-sanchez/';
+        'https://linkedin.com/in/juan-fco-aguilar-sanchez';
       break;
 
     default:
       window.location.href =
-        'http://www.linkedin.com/in/juan-fco-aguilar-sanchez/';
+        'https://github.com/JuanFrancisco21';
       break;
   }
 }
